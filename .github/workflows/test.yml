@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    uses: selamy-labs/.github/.github/workflows/python-ci.yml@main
+    with:
+      coverage-fail-under: 90
