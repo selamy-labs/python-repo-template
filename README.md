@@ -17,7 +17,8 @@
    `name`, `[tool.hatch.build.targets.wheel] packages`, and
    `[tool.coverage.run] source` in `pyproject.toml`.
 3. Replace `core.py` + its tests with your real code, keeping coverage ≥ 90%.
-4. Fill in this README (what/why/install/usage) and set the repo description + topics.
+4. Fill in this README (what/why/install/usage), set the repo description + topics,
+   and keep [`CHANGELOG.md`](./CHANGELOG.md) current for every release.
 
 ## Install
 
@@ -48,5 +49,5 @@ org-wide.
 ## Standards
 
 This repo meets the [public-repo bar](https://github.com/selamy-labs/.github):
-LICENSE, reusable CI with a coverage floor, `src/` layout, and the org-wide
-community-health defaults. Keep them.
+LICENSE, CHANGELOG, reusable CI with a coverage floor, `src/` layout, and the
+org-wide community-health defaults. Keep them.
